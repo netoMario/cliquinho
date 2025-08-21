@@ -6,6 +6,7 @@ Feito para clicar automaticamente em botões que contenham o texto **"Início"**
 ---
 
 ## 🚀 Como funciona
+
 - O script monitora todos os `<button>` da página.
 - Se encontrar um botão com o texto **"Início"** ou **"Iniciar"**, ele faz o clique automaticamente.
 - A verificação é feita em intervalos definidos pela constante `intervalo` (padrão: `2000ms` = 2 segundos).
@@ -38,7 +39,20 @@ Feito para clicar automaticamente em botões que contenham o texto **"Início"**
 ---
 
 ## ⚙️ Configuração
+
 Se quiser mudar o tempo de verificação, edite a constante:
 
 ```javascript
 const intervalo = 2000; // tempo em milissegundos
+```
+
+## 📝 Documentação do **Tampermonkey**
+
+Por padrão, o **cliquinho** está configurado para ser ativado em todos os sites. Para essa e outras alterações, consulte a documentação da extensão:
+
+- [Documentação](https://www.tampermonkey.net/documentation.php)
+
+
+
+
+
