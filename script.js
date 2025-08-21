@@ -27,7 +27,6 @@
     function procurarEClickar() {
         const botoes = document.querySelectorAll("button");
         botoes.forEach(botao => {
-            // percorre cada span dentro do botão
             const spans = botao.querySelectorAll("span");
             spans.forEach(span => {
                 const texto = normalizarTexto(span.textContent);
